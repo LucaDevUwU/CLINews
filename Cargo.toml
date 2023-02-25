@@ -1,0 +1,16 @@
+[package]
+name = "CLINews"
+version = "0.1.0"
+edition = "2021"
+authors = ["LucaaUwU"]
+
+[dependencies]
+crossterm = "0.26.0"
+dotenv = "0.15.0"
+termimad = "0.21.0"
+tokio = {version = "1.11.0", features = ["full"] }
+serde = {version = "1.0.152", features = ["derive"]}
+ureq = "2.0.0"
+serde_json = "1.0.93"
+colour = "0.6.0"
+thiserror = "1.0.38"
